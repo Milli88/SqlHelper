@@ -1,0 +1,36 @@
+# Ignore .sql files
+*.sql
+
+# .NET build/output folders
+bin/
+obj/
+
+# NuGet packages directory
+Dependencies/
+packages/
+
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+
+# ReSharper files
+_ReSharper*/
+*.sln.iml
+
+# MSTest test results
+TestResults/
+
+# Local development files (but not appsettings.json)
+appsettings.Development.json
+appsettings.local.json
+
+# Rider IDE folder
+.idea/
+
+# VS Code folder
+.vscode/
+
+# Ignore dependency tracking file (for .NET Core 3.0+)
+**/.vs/
